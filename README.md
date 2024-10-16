@@ -4,7 +4,7 @@ This Router project has been designed on 3-layer protocol. This protocol consist
 In "encapsulation" in 1st layer TCP header is added to the data, in 2nd layer IP address id addded and in 3rd layer MAC address id added to data. In "de-encapsulation" the reverse of encapsulation is done.
 Each address consists of both adresses of Transmitter and riceiver.
 In this router project it is assumed that the decoding of data address has been done and received by router.
-Data to this router is sent i  bytes form.
+Data to this router is sent in bytes form.
 First byte of every data packet is "Header byte" in which 1st 2 LSB bits are address of destinantion device (FIFO) and remaining 6 bits indicate number of payload data to be received.
 Last byte of every data packet consists of "parity byte".
 Input signals of top block :-
